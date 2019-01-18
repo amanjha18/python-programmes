@@ -30,7 +30,7 @@ def isOnlyDigits(num):
 # Returns True if num is a string made up only of digits. Otherwise returns False.
 
   for i in num:
-    if i not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
+    if i in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
       return False
   else:
     return True
